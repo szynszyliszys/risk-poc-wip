@@ -1,0 +1,13 @@
+@import '../variables/variables';
+
+$badge-size: $u5;
+
+.badge {
+  width: $badge-size;
+  height: $badge-size;
+  line-height: $badge-size;
+  background-color: $shade;
+  border-radius: 100%;
+  text-align: center;
+  font-weight: $font-bold;
+}

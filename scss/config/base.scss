@@ -1,0 +1,23 @@
+@import '../variables/variables';
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-size-adjust: 100%;
+}
+
+*,
+::after,
+::before {
+  border: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: $body;
+  line-height: 1.5;
+  background-color: $background-color;
+  font-family: $font-family;
+}

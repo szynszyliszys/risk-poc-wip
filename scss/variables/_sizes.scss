@@ -1,0 +1,17 @@
+// Units
+$u1: 6px; // 6px
+$u2: $u1 * 2; // 12px
+$u3: $u1 * 3; // 18px
+$u4: $u1 * 4; // 24px
+$u5: $u1 * 5; // 32px
+
+$u-1: $u1 * -1; // -6px
+$u-2: $u1 * -2; // -12px
+$u-3: $u1 * -3; // -18px
+$u-4: $u1 * -4; // -24px
+$u-5: $u1 * -5; // -32px
+
+// Default sizes used in the project
+$wrap-width: 1200px;
+$padding-u: $u3; // 24px
+$border-radius: $u1; // 6px

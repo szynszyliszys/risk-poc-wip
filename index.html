@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Risk Policies Table POC</title>
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+</html>
+<body>
+  <div class="wrapper">
+    <h1 class="h4">All Events</h1>
+    <section class="events-list">
+      <div class="events-list__header">
+        <h2 class="events-list__title h5">1243 Events</h2>
+        <div class="events-list__actions">
+          <input class="events-list__search" type="search"/>
+          <div class="events-list__controls">
+            <button><</button>
+            <button>></button> 
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <table class="events-list__table table">
+          <thead>
+            <tr class="table__row">
+              <th class="table__cell table__cell--th">
+                Risk
+              </th>
+              <th class="table__cell table__cell--th">
+                Event
+              </th>
+              <th class="table__cell table__cell--th">
+                Segment
+              </th>
+              <th class="table__cell table__cell--th">
+                Risk Policy
+              </th>
+              <th class="table__cell table__cell--th">
+                User
+              </th>
+              <th class="table__cell table__cell--th">
+                Timestamp
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <td class="table__cell">
+                <div class="badge">
+                  0
+                </div>
+              </td>
+              <td class="table__cell"> 
+                transaction.attempted
+              </td>
+              <td class="table__cell">
+                All events
+              </td>
+              <td class="table__cell">
+                <div class="container container--v">
+                  <span>All Events</span>
+                  <span class="risk-label risk-label--anomaly">Anomaly</span>
+                </div>
+              </td>
+              <td class="table__cell">
+                <div class="container container--v">
+                  <span>mail@mail.com</span>
+                  <span class="t-micro t-grey">6ecaa570-31c4-4152-b0a1-68f17b1f827b</span>
+                </div>
+              </td>
+              <td class="table__cell">
+                  2019-03-01T21:09:35
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</body>

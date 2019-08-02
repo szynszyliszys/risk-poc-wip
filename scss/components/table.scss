@@ -1,0 +1,34 @@
+@import '../variables/variables';
+
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+.table__header {
+
+}
+
+.table__body {
+
+}
+
+.table__row {
+  border-bottom: 1px solid $grey;
+}
+
+.table__cell {
+  padding: $u2 $u2 $u2 0;
+  font-weight: $font-semibold;
+
+  &:first-of-type {
+    padding-left: $u2;
+  }
+}
+
+.table__cell--th {
+  text-transform: uppercase;
+  font-weight: $font-semibold;
+  font-size: $micro;
+  color: $grey-dark;
+}

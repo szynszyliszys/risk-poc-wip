@@ -1,0 +1,15 @@
+.risk-label {
+  line-height: $h6;
+  font-weight: $font-semibold;
+  font-size: $micro;
+  text-transform: uppercase;
+  color: $normal-color;
+}
+
+.risk-label--anomaly {
+  color: $warning-color;
+}
+
+.risk-label--attack {
+  color: $danger-color;
+}
